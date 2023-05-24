@@ -24,7 +24,7 @@ export default function AdminLogin() {
         const data = await response.json();
         localStorage.setItem("adminToken", data.token);
         localStorage.removeItem("userToken");
-        window.location.replace("https://libra-sys.onrender.com/admin");
+        window.location.replace("/admin");
       }
     } catch (err) {
       console.log(err);

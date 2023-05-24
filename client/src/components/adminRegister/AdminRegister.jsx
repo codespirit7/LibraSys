@@ -43,7 +43,7 @@ export default function AdminRegister() {
           <input
             type="text"
             className="adminRegisterInput"
-            placeholder="Enter your secret Key"
+            placeholder="Enter secret Key as 111"
             onChange={(e) => setSecret(e.target.value)}
           />
           <label className="lbl">Email</label>

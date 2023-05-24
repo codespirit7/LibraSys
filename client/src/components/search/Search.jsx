@@ -19,7 +19,7 @@ function Search() {
   useEffect(() => {
     const loadBooks = async () => {
       try {
-        const response = await fetch("http://localhost:5000/home/", {
+        const response = await fetch("https://libra-sys.onrender.com/home/", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

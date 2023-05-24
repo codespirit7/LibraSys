@@ -9,7 +9,7 @@ export default function AdminLogin() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/adminLogin", {
+      const response = await fetch("https://libra-sys.onrender.com/adminLogin", {
         method: "POST",
         headers: {
           "content-Type": "application/json",

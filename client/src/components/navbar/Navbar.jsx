@@ -6,7 +6,7 @@ export default function Navbar() {
     localStorage.removeItem("userToken");
     localStorage.removeItem("adminToken");
     alert("You have been logged out");
-    window.location.replace("/login");
+    window.location.replace("https://libra-sys.onrender.com/login");
   };
   const adminToken = localStorage.getItem("adminToken");
   const userToken = localStorage.getItem("userToken");

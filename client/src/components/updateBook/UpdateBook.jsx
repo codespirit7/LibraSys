@@ -11,7 +11,7 @@ export default function AdminRegister({ book }) {
     e.preventDefault();
     try {
       const response = await fetch(
-        `http://localhost:5000/book/update/${book._id}`,
+        `https://libra-sys.onrender.com/book/update/${book._id}`,
         {
           method: "PUT",
           headers: {

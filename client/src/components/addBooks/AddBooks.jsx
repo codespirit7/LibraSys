@@ -26,7 +26,7 @@ export default function AdminRegister() {
       });
 
       if (response.ok) {
-        window.location.replace("https://libra-sys.onrender.com/home");
+        window.location.replace("/home");
       } else {
         alert("You are not authorized to Add Books. Only admins are allowed.");
 

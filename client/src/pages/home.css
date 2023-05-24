@@ -1,0 +1,7 @@
+.home {
+  /* background-image: url("https://img.freepik.com/free-vector/abstract-low-poly-banner-design_1048-18524.jpg?w=1380&t=st=1684762625~exp=1684763225~hmac=d00f6ad67bb324af290215f00e4458c91def98b522c29e479506903e8667babf"); */
+ padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates four equal-width columns */
+    grid-gap: 10px; /* Adjust the gap between components as desired */
+  }

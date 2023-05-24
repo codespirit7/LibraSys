@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+  }
+
+.updateBooks {
+    width: 300px;
+    margin: 0px 25px 40px 25px;
+    border-radius: 10px;
+    box-shadow: 0 -15px 20px -20px #304258,
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+  }
+  .updateborderBox{
+     
+    border: 2px solid black;;
+    padding: 60px;
+    border-radius: 16px;
+    background-color: white;
+    box-shadow: 5px 10px black;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid black;
+   
+  }
+
+  
+  .updateBooksTitle {
+    font-size: 50px;
+    color: black;
+  }
+  .lbl{
+    color: black;
+  }
+  .updateBooksForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .updateBooksForm > label {
+    margin: 10px 0;
+  }
+  
+  .updateBooksInput {
+    padding: 10px;
+    background-color: #DAC9FE;
+    border-radius: 22px;
+    border: none;
+  }
+
+  .no-drag{
+    resize: none;
+  }
+
+  
+  
+  .updateBooksButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  

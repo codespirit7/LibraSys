@@ -1,0 +1,24 @@
+.searchApp{
+    margin: 12px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search{
+    padding: 10px;
+    font-size: 16px;
+   
+    
+      
+}
+
+.searchShow{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Creates four equal-width columns */
+    grid-gap: 10px; /* Adjust the gap between components as desired */
+  
+}

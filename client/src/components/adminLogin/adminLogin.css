@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+.adminLogin {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url("https://wallpaperaccess.com/full/3876089.jpg"); */
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .adminLoginTitle {
+    font-size: 50px;
+color: black;
+  }
+  .borderBoxAL{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 2px solid black;
+    padding: 60px;
+    border-radius: 16px;
+    box-shadow: 0 -15px 20px -20px #304258,
+    25px 0px 20px -20px rgba(0,0,0,0.45),
+    0px 25px 20px -20px rgba(0,0,0,0.45),
+    -25px 0px 20px -20px rgba(0,0,0,0.45);
+  }
+  .lbl{
+    color: black;
+  }
+  .adminLoginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .adminLoginForm > label {
+    margin: 10px 0;
+  }
+  
+  .adminLoginInput {
+    padding: 10px;
+    background-color: #DAC9FE;
+    border-radius: 22px;
+    border: none;
+  }
+  
+  .adminLoginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+ 

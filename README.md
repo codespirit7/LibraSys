@@ -10,7 +10,7 @@ An Online Library Management portal.
 * Ability to search and Request Books by General Users
 * Ability to Add, Update and Delete Books for the Admin Users       
 
-## User Interface![pic](https://github.com/codespirit7/LibraSys/assets/88592710/13fb71ed-1539-422c-a4da-576a2916285b)
+## User Interface
 ![Screenshot from 2023-05-24 17-24-38](https://github.com/codespirit7/LibraSys/assets/88592710/2fbea6fd-9f39-4bae-8ce6-56a0065394ad)
 ![Screenshot from 2023-05-24 17-24-43](https://github.com/codespirit7/LibraSys/assets/88592710/7f76d1c1-6395-44d6-a7a6-dcd990f669df)
 ![Screenshot from 2023-05-24 17-25-03](https://github.com/codespirit7/LibraSys/assets/88592710/c0b8a6a6-909f-4fbe-90c7-28c7d87c8586)

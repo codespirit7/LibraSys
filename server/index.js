@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+
 const cors = require("cors");
 const dotenv = require("dotenv");
 
@@ -8,6 +9,11 @@ const port = process.env.PORT || 5000;
 /**
  * importing defined routes
  */
+
+const publicPath = path.join(__dirname, '/client/public');
+app.use(express.static(publicPath));
+
+
 const userRoute = require("./routes/users/user");
 const adminRoute = require("./routes/admin/admin");
 const bookRoute = require("./routes/books/books");

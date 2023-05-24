@@ -37,7 +37,7 @@ export default function Book({ book }) {
   const handleDeleteRequest = async () => {
     console.log(book._id, book.title);
     try {
-      const response = fetch(`http://localhost:5000/book/delete/${book._id}`, {
+      const response = fetch(`https://libra-sys.onrender.com/book/delete/${book._id}`, {
         method: "DELETE",
         headers: {
           authorization: adminToken,

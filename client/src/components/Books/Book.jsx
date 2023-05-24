@@ -13,7 +13,7 @@ export default function Book({ book }) {
     console.log(book._id, book.title);
 
     try {
-      const response = await fetch("http://localhost:5000/request/", {
+      const response = await fetch("https://libra-sys.onrender.com/request/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

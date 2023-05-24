@@ -4,7 +4,7 @@ const cors = require("cors");
 const dotenv = require("dotenv");
 
 app.use(cors());
-const port = 5000;
+const port = process.env.PORT || 5000;
 /**
  * importing defined routes
  */
